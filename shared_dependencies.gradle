@@ -26,9 +26,6 @@ dependencies {
     //Loading Animation
     implementation "com.github.ybq:Android-SpinKit:$spinKit"
 
-    //Bubble Bottom Navigation
-    implementation "com.gauravk.bubblenavigation:bubblenavigation:$bubbleBottom"
-
     //Rounded ImageView
     implementation "com.makeramen:roundedimageview:$roundedImageViewVersion"
 

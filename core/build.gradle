@@ -74,7 +74,8 @@ dependencies {
     implementation "net.zetetic:android-database-sqlcipher:$sql_chiper"
     implementation "androidx.sqlite:sqlite-ktx:$sql_lite"
 
-    implementation 'com.babylon.certificatetransparency:certificatetransparency-android:0.3.0'
+    implementation("com.appmattus.certificatetransparency:certificatetransparency-android:1.1.0")
+
 
 
 }
