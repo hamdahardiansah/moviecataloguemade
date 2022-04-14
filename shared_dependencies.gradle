@@ -9,6 +9,7 @@ dependencies {
     implementation "androidx.multidex:multidex:$multidex_version"
     implementation 'androidx.navigation:navigation-ui-ktx:2.4.2'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.4.2'
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.5.10"
 
     implementation "androidx.cardview:cardview:$cardview_version"
     implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
