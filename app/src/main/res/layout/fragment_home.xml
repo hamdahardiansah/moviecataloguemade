@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
+    tools:ignore="Overdraw"
     tools:context=".ui.home.HomeFragment">
 
     <include
@@ -80,7 +81,7 @@
             fab:fab_size="mini"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_newest" />
+            android:src="@drawable/ic_clock" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fabOldest"
@@ -88,7 +89,7 @@
             fab:fab_size="mini"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_oldest" />
+            android:src="@drawable/ic_history" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fabPopularity"

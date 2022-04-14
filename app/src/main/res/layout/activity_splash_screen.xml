@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/bgSplashscreen"
-    tools:context=".ui.SplashScreenActivity">
+    tools:context=".ui.SplashScreenActivity"
+    tools:ignore="Overdraw"
+    >
 
     <ImageView
         android:id="@+id/ivSplashScreen"
