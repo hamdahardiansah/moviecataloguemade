@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">OSCALE</string>
+    <string name="movie">Movie</string>
+    <string name="title_splashScreen">Oscale</string>
+    <string name="sample_release">12 December 2021</string>
+    <string name="sample_popularity">198.239</string>
+    <string name="sample_title">Shang-Chi and the Legend of the Ten Rings</string>
+    <string name="sample_overview">The film features Kung Fu Panda and Chinese martial arts folk hero Wong Fei Hung. In the film, the panda is assigned by the Buddha to protect an ancient treasure that could give the bearer the power to conquer the world.</string>
+    <string name="sample_poster">Sample Poster</string>
+    <string name="sample_rating">7.8</string>
+    <string name="overview">Overview</string>
+    <string name="colon">:</string>
+    <string name="others">Others</string>
+    <string name="language">Language</string>
+    <string name="en">En</string>
+    <string name="popularity">Popularity</string>
+    <string name="favorite">Favorite</string>
+    <string name="url_poster">https://image.tmdb.org/t/p/w500%s</string>
+    <string name="ok">OK</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="something_is_wrong">Something is wrong</string>
+
+    <string name="search_movie">Search Movie</string>
+    <string name="desc_search_image">Search Image</string>
+    <string name="image_empty">Image Empty</string>
+    <string name="not_found_movie">Not Found</string>
+    <string name="search">Search</string>
+</resources>

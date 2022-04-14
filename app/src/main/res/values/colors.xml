@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bgColor">#2D4263</color>
+    <color name="primaryColor">#F14A16</color>
+    <color name="bgRecyclerView">#35589A</color>
+    <color name="bgSplashscreen">#1E1F28</color>
+    <color name="textColor">#ECDBBA</color>
+    <color name="titleColor">#FC9918</color>
+    <color name="yellowStar">#FFE300</color>
+</resources>
