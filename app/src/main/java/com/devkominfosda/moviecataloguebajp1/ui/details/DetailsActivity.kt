@@ -7,6 +7,7 @@ import androidx.core.content.ContextCompat
 import com.devkominfosda.moviecataloguebajp1.R
 import com.devkominfosda.moviecataloguebajp1.databinding.ActivityDetailsBinding
 import com.devkominfosda.moviecataloguebajp1.core.domain.model.Movies
+import com.devkominfosda.moviecataloguebajp1.core.utils.gone
 import com.devkominfosda.moviecataloguebajp1.core.utils.loadImage
 import com.jakewharton.rxbinding2.view.clicks
 import org.koin.android.viewmodel.ext.android.viewModel
@@ -33,6 +34,7 @@ class DetailsActivity : AppCompatActivity() {
     @SuppressLint("CheckResult")
     private fun loadDataDetail(movie: Movies) {
         binding.apply {
+            svLoadingDetail.gone()
             tvTitleDetail.text = movie.title
             tvLanguage.text = movie.originalLanguage
             tvPopularity.text = movie.popularity.toString()
